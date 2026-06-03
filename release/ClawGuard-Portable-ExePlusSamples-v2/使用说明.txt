@@ -1,0 +1,23 @@
+ClawGuard Portable Release (EXE + External samples)
+
+发布日期: 2026-05-07
+
+目录结构:
+- ClawGuardLauncher.exe
+- samples/
+- 一键启动.bat
+- 使用说明.txt
+
+使用方法:
+1) 保持 exe 与 samples 在同一目录层级。
+2) 双击“一键启动.bat”。
+3) 浏览器访问 http://127.0.0.1:8123
+
+说明:
+- 目标机不需要安装 Python。
+- 静态审计会优先读取当前工作目录下的 samples。
+- 导入样例已筛选，仅保留每个 skill 的 SKILL.md。
+
+可选:
+- 设置 CLAWGUARD_PORT 可修改端口。
+- 设置 CLAWGUARD_SAMPLES_DIR 可指定自定义样例目录。

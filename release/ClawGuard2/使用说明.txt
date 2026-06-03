@@ -1,0 +1,16 @@
+ClawGuard No-Python Release
+
+目录:
+- ClawGuardLauncher.exe
+- samples/
+- 一键启动.bat
+- 使用说明.txt
+
+用法:
+1. 保持 exe 和 samples 同级
+2. 双击“一键启动.bat”
+3. 访问 http://127.0.0.1:8123
+
+说明:
+- 不需要安装 Python
+- 静态审计读取外置 samples
